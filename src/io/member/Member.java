@@ -1,6 +1,11 @@
 package io.member;
 
-public class Member {
+import java.io.Serializable;
+
+/**
+ * Serializable 은 ObjctStream 예제를 위해 추가함.
+ */
+public class Member implements Serializable {
     private String id;
     private String name;
     private Integer age;

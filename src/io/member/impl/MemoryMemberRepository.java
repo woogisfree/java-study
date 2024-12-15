@@ -1,8 +1,14 @@
-package io.member;
+package io.member.impl;
+
+import io.member.Member;
+import io.member.MemberRepository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 메모리에 저장
+ */
 public class MemoryMemberRepository implements MemberRepository {
 
     private final List<Member> members = new ArrayList<>();
