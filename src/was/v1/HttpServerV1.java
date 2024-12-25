@@ -19,6 +19,7 @@ public class HttpServerV1 {
         log("서버 시작 port: " + port);
         while (true) {
             Socket socket = serverSocket.accept();
+
         }
     }
 }
